@@ -1,5 +1,5 @@
 ---
-title: Home 2
+title: Home
 layout: home
 permalink: /
 gallery:
