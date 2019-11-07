@@ -1,5 +1,9 @@
 {% extends "base.njk" %}
 
+{% block head %}
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{% endblock %}
+
 {% block main_header %}
     <header class="relative text-white h-screen flex flex-col justify-between text-xl">
         <div class="flex flex-col flex-1 md:flex-none md:flex-row justify-between items-center text-center md:text-left">
