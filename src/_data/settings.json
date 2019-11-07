@@ -1,0 +1,27 @@
+{
+    "title": "InSitu",
+    "tagline": "Where art meets landscape",
+    "nav_links": [
+        {
+            "label": "Sculptures",
+            "url": "/sculptures"
+        },
+        {
+            "label": "Gardens",
+            "url": "/gardens"
+        },
+        {
+            "label": "Estate",
+            "url": "/estate"
+        },
+        {
+            "label": "About",
+            "url": "/about"
+        },
+        {
+            "label": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "default_banner": "/dist/images/INS_Collections2019_071719_246_Phone-web.jpg"
+}

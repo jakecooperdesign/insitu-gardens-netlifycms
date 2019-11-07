@@ -1,0 +1,68 @@
+backend:
+  name: bitbucket
+  repo: jakecooperdesign/insitu # Path to your Bitbucket repository
+media_folder: "src/dist/images" # Media files will be stored in the repo under images/uploads
+public_folder: "dist/images"
+collections:
+  - name: "pages"
+    label: "Pages"
+    description: "All non-unique site pages"
+    folder: "src/pages"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: page}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - label: "Banner"
+        name: "banner"
+        widget: "object"
+        fields: 
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "gallery-pages"
+    label: "Gallery Pages"
+    description: "Pages that use the gallery template"
+    folder: "src/galleries"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: gallery}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - label: "Banner"
+        name: "banner"
+        widget: "object"
+        fields: 
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
+      - label: "Gallery Images"
+        label_singular: "Image"
+        name: "gallery"
+        widget: "list" 
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "home-page"
+    label: "Home Page"
+    description: "Unique fields for the home page"
+    files: 
+      - file: "src/index.md"
+        label: "Home Page"
+        name: "home-page"
+        create: false
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "string", default: page}
+          - {label: "Permalink", name: "permalink", widget: "string"}
+          - label: "Gallery Images"
+            label_singular: "Image"
+            name: "gallery"
+            widget: "list" 
+            fields: 
+              - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
+          - {label: "Body", name: "body", widget: "markdown"}

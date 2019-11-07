@@ -1,3 +1,2 @@
-# insitu-gardens-netlifycms
-# insitu-gardens-netlifycms
-# insitu-gardens-netlifycms
+# InSitu Website w/ NetlifyCMS
+

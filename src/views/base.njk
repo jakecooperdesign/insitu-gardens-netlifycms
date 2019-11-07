@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ settings.title }}</title>
+    {# <link rel="stylesheet" href="https://use.typekit.net/ths7jhe.css"> #}
+    <link rel="stylesheet" href="/dist/app.css">
+</head>
+<body class="font-sans">
+    <div id="app">
+        {% block main_header %}
+        <header class="relative text-white h-64 md:h-128 text-xl">
+            <navbar>
+                <template v-slot:heading>
+                    <p class="text-4xl"><a href="/">{{settings.title}}</a></p>
+                </template>
+                <template v-slot:links>
+                    {% for link in settings.nav_links %}
+                        <a class="block py-2 md:ml-4 border-b border-transparent hover:text-gray-600 md:hover:text-white md:hover:border-white md:inline-block" href="{{link.url}}">{{ link.label }}</a>
+                    {% endfor %}
+                </template>
+            </navbar>
+            <img class="absolute left-0 top-0 w-full h-full pointer-events-none object-cover object-center" style="z-index: -1" src="{{ banner.src if banner else settings.default_banner }}" alt="banner image">
+        </header>
+        {% endblock %}
+
+        {% block main %}
+            <main>{{ content | safe }}</main>
+        {% endblock %}
+
+        {% block footer %}
+        <footer class="bg-gray-200 text-center p-2 text-xs uppercase tracking-widest text-gray-700">
+            {{settings.title}} &copy; 2019
+        </footer>
+        {% endblock %}
+    </div>
+    <script>
+    (function(d) {
+        var config = {
+        kitId: 'ths7jhe',
+        scriptTimeout: 3000,
+        async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+    </script>
+    <script src="/dist/app.js"></script>
+</body>
+</html>
