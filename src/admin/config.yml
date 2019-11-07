@@ -11,11 +11,12 @@ collections:
     slug: "{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: page}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - label: "Banner"
         name: "banner"
         widget: "object"
+        require: false
         fields: 
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -28,17 +29,19 @@ collections:
     slug: "{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: gallery}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "gallery"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - label: "Banner"
         name: "banner"
         widget: "object"
+        required: false
         fields: 
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
       - label: "Gallery Images"
         label_singular: "Image"
         name: "gallery"
         widget: "list" 
+        required: false
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
@@ -56,12 +59,13 @@ collections:
         create: false
         fields: 
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "string", default: page}
+          - {label: "Layout", name: "layout", widget: "string", default: "page"}
           - {label: "Permalink", name: "permalink", widget: "string"}
           - label: "Gallery Images"
             label_singular: "Image"
             name: "gallery"
             widget: "list" 
+            required: false
             fields: 
               - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
           - {label: "Body", name: "body", widget: "markdown"}
