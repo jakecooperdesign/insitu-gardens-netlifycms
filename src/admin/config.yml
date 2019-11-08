@@ -18,7 +18,7 @@ collections:
         widget: "object"
         required: false
         fields: 
-          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "gallery-pages"
@@ -36,7 +36,7 @@ collections:
         widget: "object"
         required: false
         fields: 
-          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}, required: false}
       - label: "Gallery Images"
         label_singular: "Image"
         name: "gallery"
