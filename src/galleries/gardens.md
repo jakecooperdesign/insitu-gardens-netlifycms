@@ -5,18 +5,14 @@ permalink: /gardens/
 banner:
   src: /dist/images/INS_Collections2019_091319_0921_Andy-web.jpg
 gallery:
-  - src: /dist/images/INS_Collections2019_071719_006_Phone-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_011-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_086-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_196_Phone-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_006_Phone-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_011-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_086-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_196_Phone-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_006_Phone-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_011-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_086-web.jpg
-  - src: /dist/images/INS_Collections2019_071719_196_Phone-web.jpg
+  - src: /dist/images/ins_collections2019_091319_0041.jpg
+  - src: /dist/images/ins_collections2019_091319_0226.jpg
+  - src: /dist/images/ins_collections2019_071719_281.jpg
+  - src: /dist/images/ins_collections2019_091319_0543.jpg
+  - src: /dist/images/ins_collections2019_071719_266.jpg
+  - src: /dist/images/INS_Collections2019_071719_301-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_213_Phone-web.jpg
+  - src: /dist/images/ins_collections2019_091319_0261.jpg
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, commodi adipisci placeat praesentium sapiente voluptate temporibus blanditiis labore earum velit.
