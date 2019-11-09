@@ -7,8 +7,6 @@ banner:
 ---
 ## where landscape meets art
 
-Where landscape meets art.
-
 InSitu is an eight-acre sculpture garden designed to be spiritually and emotionally inspiring. The landscape combines structures, rich plantings, and art. 
 
 
