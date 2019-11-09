@@ -2,9 +2,15 @@
 title: About Us
 layout: page
 permalink: /about/
+banner:
+  src: /dist/images/ins_collections2019_071719_301.jpg
 ---
 ## where landscape meets art
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Where landscape meets art.
 
-Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+InSitu is an eight-acre sculpture garden designed to be spiritually and emotionally inspiring. The landscape combines structures, rich plantings, and art. 
+
+
+
+For nearly two decades InSitu has been a collaborative space between landscape designers, artists, and its owner and creative director.  An outdoor sketchbook featuring terraces, portals, arbors, walls, water features, and many hidden and seasonal gems.
