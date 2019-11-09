@@ -3,20 +3,20 @@ title: Gardens
 layout: gallery
 permalink: /gardens/
 banner:
-  src: "/dist/images/INS_Collections2019_091319_0001_Andy-web.jpg"
-gallery: 
-  - {"src": "/dist/images/INS_Collections2019_071719_006_Phone-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_011-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_086-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_196_Phone-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_006_Phone-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_011-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_086-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_196_Phone-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_006_Phone-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_011-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_086-web.jpg"}
-  - {"src": "/dist/images/INS_Collections2019_071719_196_Phone-web.jpg"}
+  src: /dist/images/INS_Collections2019_091319_0921_Andy-web.jpg
+gallery:
+  - src: /dist/images/INS_Collections2019_071719_006_Phone-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_011-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_086-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_196_Phone-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_006_Phone-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_011-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_086-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_196_Phone-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_006_Phone-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_011-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_086-web.jpg
+  - src: /dist/images/INS_Collections2019_071719_196_Phone-web.jpg
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, commodi adipisci placeat praesentium sapiente voluptate temporibus blanditiis labore earum velit.
