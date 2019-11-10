@@ -5,11 +5,6 @@ permalink: /estate/
 banner:
   src: /dist/images/ins_collections2019_091319_0691.jpg
 ---
+InSitu explores the limitless bounds between art, nature, and the experiential.  
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, commodi adipisci placeat praesentium sapiente voluptate temporibus blanditiis labore earum velit.
-
-Veniam eveniet unde optio! Consequuntur quae totam magnam! Nisi assumenda sapiente tenetur est rerum dolorum nulla incidunt consequuntur sit praesentium.
-
-Vel cupiditate, ducimus corporis reiciendis, consequatur ratione amet tempora, magni eum rem ea obcaecati facilis debitis sunt voluptate pariatur eveniet.
-
-Officia culpa illo sit, ea nihil itaque harum quae explicabo, earum, sint alias pariatur fugit sunt est iure aspernatur placeat.
+Beginning as untamed wilderness 18 years ago, InSitu has been a collaborative sketchbook between landscape architects, artists, designers, and its owner and creative director.  Set in the heart of Redding, Connecticut the estate celebrates the best of New England flora; native grasses and perennials, fields flooded with Goldenrod, granite and bluestone from local quarries all come together as the local vernacular to create a spiritual oasis.
