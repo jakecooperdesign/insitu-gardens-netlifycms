@@ -27,4 +27,4 @@ gallery:
 ---
 Built into several Garden Rooms, InSitu explores a unique approach by layering textures of vibrant plantings, sculptures and stonework. 
 
-Each room features a sculptural and botanic theme mean to engage upon each other while simultaneously feeling organic and peaceful.  Colossal stone structures make way for breezy fields of tall grass and whimsical sculptures.
+Each room features a sculptural and botanic theme meant to engage each other while simultaneously feeling organic and peaceful.  Colossal stone structures make way for breezy fields of tall grass and whimsical sculptures.
