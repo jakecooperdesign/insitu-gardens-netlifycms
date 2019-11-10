@@ -16,8 +16,8 @@ gallery:
     title: The Terraces
   - src: /dist/images/ins_collections2019_091319_0543.jpg
     title: The Hydrangea Garden
-  - src: /dist/images/ins_collections2019_071719_266.jpg
-    title: Meadow Steps
+  - src: /dist/images/ins_collections2019_091319_0036.jpg
+    title: The Water Garden
   - src: /dist/images/INS_Collections2019_071719_301-web.jpg
     title: Onto the Great Lawn
   - src: /dist/images/INS_Collections2019_071719_213_Phone-web.jpg
