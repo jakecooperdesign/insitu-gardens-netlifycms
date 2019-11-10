@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: master
 base_url: https://insitu-gardens.netlify.com/
 publish_mode: editorial_workflow
 media_folder: "src/dist/images" # Media files will be stored in the repo under images/uploads
@@ -21,7 +22,8 @@ collections:
         required: false
         fields: 
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "gallery-pages"
     label: "Gallery Pages"
     description: "Pages that use the gallery template"
@@ -48,7 +50,8 @@ collections:
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }} }
           - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
           - {label: "Description", name: "description", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
+                    
   - name: "unique-pages"
     label: "Unique Pages"
     description: "One-off pages with unique fields for each page."
@@ -68,7 +71,8 @@ collections:
             required: false
             fields: 
               - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}}
-          - {label: "Body", name: "body", widget: "markdown"}
+              - {label: "Body", name: "body", widget: "markdown"}
+                          
   - name: "Settings"
     label: "Settings"
     description: "Configure the settings for the site."
@@ -86,10 +90,11 @@ collections:
             widget: "list" 
             required: false
             fields: 
-            - label: "Nav Link"
-              name: "nav_link"
-              widget: "object"
-              required: false
-              fields: 
-              - {label: "Label", name: "label", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
+              - label: "Nav Link"
+                name: "nav_link"
+                widget: "object"
+                required: false
+                fields: 
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+                                  

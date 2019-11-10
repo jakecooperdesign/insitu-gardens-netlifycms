@@ -30683,8 +30683,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jacobcooper/code/eleventy/insitu/src/resources/js/app.js */"./src/resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jacobcooper/code/eleventy/insitu/src/resources/scss/app.scss */"./src/resources/scss/app.scss");
+__webpack_require__(/*! /Users/jacobcooper/code/eleventy/insitu-github/src/resources/js/app.js */"./src/resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/jacobcooper/code/eleventy/insitu-github/src/resources/scss/app.scss */"./src/resources/scss/app.scss");
 
 
 /***/ })
