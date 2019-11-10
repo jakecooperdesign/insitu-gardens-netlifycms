@@ -21,4 +21,6 @@ gallery:
   - src: /dist/images/ins_collections2019_071719_011.jpg
   - src: /dist/images/ins_collections2019_071719_186.jpg
 ---
-MAKE SOME TEXT
+With a diverse curation, the sculptures at InSitu transport you to a fantastical land.  
+
+Alive with minotaurs, angels, orbs, and a dancing lamb; the gardens and sculptures let your imagination become reality.  Coupled with the Garden Rooms, the sculptures often feel like site specific installations, allowing visitors to escape and find their own narratives.
