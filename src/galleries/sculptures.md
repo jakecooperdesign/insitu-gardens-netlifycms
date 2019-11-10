@@ -18,5 +18,4 @@ gallery:
   - src: /dist/images/ins_collections2019_071719_011.jpg
   - src: /dist/images/ins_collections2019_071719_186.jpg
 ---
-
-InSitu is an eight-acre garden designed to be spiritually and emotionally inspiring. The landscape combines structures, rich planting, and art. The comprehensive palette of site structures, designed by Richard Hartlage, includes eight water features an outdoor kitchen, recreational facilities, arbors, walls, portals, terraces, and walks. The highest standards of construction were maintained through careful oversight of all built objects and plantings in the garden
+MAKE SOME TEXT
