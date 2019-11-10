@@ -3,7 +3,7 @@ title: Estate
 layout: page
 permalink: /estate/
 banner:
-  src: /dist/images/ins_collections2019_091319_0041.jpg
+  src: /dist/images/ins_collections2019_091319_0691.jpg
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, commodi adipisci placeat praesentium sapiente voluptate temporibus blanditiis labore earum velit.
