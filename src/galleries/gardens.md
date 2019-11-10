@@ -14,11 +14,6 @@ gallery:
   - src: /dist/images/INS_Collections2019_071719_213_Phone-web.jpg
   - src: /dist/images/ins_collections2019_091319_0261.jpg
 ---
+Built into several Garden Rooms, InSitu explores a unique approach by layering textures of plantings, sculpture and stonework. 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, commodi adipisci placeat praesentium sapiente voluptate temporibus blanditiis labore earum velit.
-
-Veniam eveniet unde optio! Consequuntur quae totam magnam! Nisi assumenda sapiente tenetur est rerum dolorum nulla incidunt consequuntur sit praesentium.
-
-Vel cupiditate, ducimus corporis reiciendis, consequatur ratione amet tempora, magni eum rem ea obcaecati facilis debitis sunt voluptate pariatur eveniet.
-
-Officia culpa illo sit, ea nihil itaque harum quae explicabo, earum, sint alias pariatur fugit sunt est iure aspernatur placeat.
+Each room features a sculptural and botanic theme mean to engage upon each other while simultaneously feeling organic and peaceful.  Colossal stone structures make way for breezy fields of tall grass and whimsical sculptures.
