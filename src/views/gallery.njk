@@ -3,19 +3,17 @@
 {% block after_content %}
     {% if gallery | length > 0 %}
         <slideshow 
-            class="text-white" 
-            :slides="{{gallery|dump}}" 
-            :controls="true" 
-            :gallery-open="galleryOpen" 
-            @update:gallery-open="galleryOpen = $event"
+            name="{{title}}" 
+            :slides="{{gallery | dump}}" 
+            @update:gallery-open="screenLocked = $event"
         ></slideshow>
         <div class="md:flex md:flex-wrap justify-center">
             {% for item in gallery %}
-            <div class="md:w-96 md:px-2 pb-4">
+            <div class="md:w-96 md:px-2 mt-4">
                 <figure class="relative z-0 bg-gray-900 group md:h-96 md:w-full">
                     <div 
                         class="absolute inset-0 flex justify-center items-center cursor-pointer opacity-0 text-white transition group-hover:opacity-100" 
-                        @click.prevent="$emit('open-gallery', {{loop.index0}})"
+                        @click="$emit('open-gallery', {{loop.index0}})"
                     >
                         <div>
                             {% set itemTitle = item.title if item.title else (title + " " + loop.index) %}

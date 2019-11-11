@@ -28,6 +28,6 @@
     "vue": "^2.6.10"
   },
   "dependencies": {
-    "swiper": "^5.2.0"
+    "vue2-touch-events": "^2.0.1"
   }
 }
