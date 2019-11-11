@@ -76,6 +76,8 @@ collections:
   - name: "Settings"
     label: "Settings"
     description: "Configure the settings for the site."
+    editor:
+      preview: false
     files: 
       - file: "src/_data/settings.json"
         label: "Global Settings"
@@ -90,11 +92,6 @@ collections:
             widget: "list" 
             required: false
             fields: 
-              - label: "Nav Link"
-                name: "nav_link"
-                widget: "object"
-                required: false
-                fields: 
-                  - {label: "Label", name: "label", widget: "string"}
-                  - {label: "URL", name: "url", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
                                   
