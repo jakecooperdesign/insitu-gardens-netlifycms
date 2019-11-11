@@ -10,6 +10,7 @@ new Vue({
         Slideshow,
         Carousel
     },
-    methods: {
+    data: {
+        galleryOpen: false
     }
 });
