@@ -1,5 +1,5 @@
 <template>
-    <div v-show="galleryOpen" class="fixed z-50 left-0 top-0 w-full h-screen bg-black p-4 lg:p-8 flex flex-col overflow-hidden">
+    <div v-show="galleryOpen" class="fixed z-50 left-0 top-0 w-full h-screen bg-black p-4 lg:p-8 flex flex-col overflow-hidden" @keydown.escape="closeGallery">
         <div class="ml-auto pb-4 lg:pb-8">
             <button @click.prevent="closeGallery" class="uppercase text-xs tracking-widest text-gray-500 hover:text-white focus:outline-none">close</button>
         </div>
@@ -54,7 +54,6 @@ export default {
             this.createSwiper();
         }
         this.$parent.$on('open-gallery', (event) => {
-            this.$emit('update:gallery-open', true);
             this.openGallery(event);
         });
     },

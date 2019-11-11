@@ -15,7 +15,7 @@
                 <figure class="relative z-0 bg-gray-900 group md:h-96 md:w-full">
                     <div 
                         class="absolute inset-0 flex justify-center items-center cursor-pointer opacity-0 text-white transition group-hover:opacity-100" 
-                        @click="$emit('open-gallery', {{loop.index0}})"
+                        @click.prevent="$emit('open-gallery', {{loop.index0}})"
                     >
                         <div>
                             {% set itemTitle = item.title if item.title else (title + " " + loop.index) %}

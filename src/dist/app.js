@@ -125,9 +125,6 @@ __webpack_require__.r(__webpack_exports__);
       "default": 0
     }
   },
-  data: function data() {
-    return {};
-  },
   mounted: function mounted() {
     if (this.autoplay) setInterval(this.nextSlide, this.speed);
   },
@@ -263,8 +260,6 @@ __webpack_require__.r(__webpack_exports__);
     }
 
     this.$parent.$on('open-gallery', function (event) {
-      _this.$emit('update:gallery-open', true);
-
       _this.openGallery(event);
     });
   },
@@ -27863,7 +27858,18 @@ var render = function() {
         }
       ],
       staticClass:
-        "fixed z-50 left-0 top-0 w-full h-screen bg-black p-4 lg:p-8 flex flex-col overflow-hidden"
+        "fixed z-50 left-0 top-0 w-full h-screen bg-black p-4 lg:p-8 flex flex-col overflow-hidden",
+      on: {
+        keydown: function($event) {
+          if (
+            !$event.type.indexOf("key") &&
+            _vm._k($event.keyCode, "escape", undefined, $event.key, undefined)
+          ) {
+            return null
+          }
+          return _vm.closeGallery($event)
+        }
+      }
     },
     [
       _c("div", { staticClass: "ml-auto pb-4 lg:pb-8" }, [

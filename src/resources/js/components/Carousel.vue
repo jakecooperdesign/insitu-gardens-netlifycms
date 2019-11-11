@@ -18,10 +18,6 @@ export default {
         'speed': { default: 2000 },
         'activeSlide': { default: 0 },
     },
-    data(){
-        return {
-        }
-    },
     mounted() {
         if (this.autoplay) setInterval(this.nextSlide, this.speed);
     },
