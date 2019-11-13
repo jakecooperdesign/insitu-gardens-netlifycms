@@ -1,27 +1,31 @@
 {
-    "title": "InSitu",
-    "tagline": "Where landscape meets art",
-    "nav_links": [
-        {
-            "label": "Sculptures",
-            "url": "/sculptures"
-        },
-        {
-            "label": "Gardens",
-            "url": "/gardens"
-        },
-        {
-            "label": "Estate",
-            "url": "/estate"
-        },
-        {
-            "label": "About",
-            "url": "/about"
-        },
-        {
-            "label": "Contact",
-            "url": "/contact"
-        }
-    ],
-    "default_banner": "/dist/images/INS_Collections2019_071719_246_Phone-web.jpg"
+  "title": "InSitu",
+  "tagline": "Where landscape meets art",
+  "default_banner": "/dist/images/INS_Collections2019_071719_246_Phone-web.jpg",
+  "nav_links": [
+    {
+      "label": "Sculptures",
+      "url": "/sculptures"
+    },
+    {
+      "label": "Gardens",
+      "url": "/gardens"
+    },
+    {
+      "label": "Architecture",
+      "url": "/architecture"
+    },
+    {
+      "label": "About",
+      "url": "/about"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact"
+    },
+    {
+      "label": "Artist in Residence",
+      "url": "/artist-in-residence"
+    }
+  ]
 }
