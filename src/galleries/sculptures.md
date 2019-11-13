@@ -33,4 +33,6 @@ gallery:
   - src: /dist/images/ins_collections2019_102519_346.jpg
     title: Infinity
 ---
+With a diverse curation, the sculptures at InSitu transport you to a fantastical land.  
 
+Alive with minotaurs, angels, orbs, and a dancing lamb; the gardens and sculptures let your imagination become reality.  Coupled with the Garden Rooms, the sculptures often feel like site specific installations, allowing visitors to escape and find their own narratives.
