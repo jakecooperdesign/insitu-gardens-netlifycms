@@ -49,7 +49,6 @@ collections:
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }} }
           - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
           - {label: "Description", name: "description", widget: "markdown", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
                     
   - name: "unique-pages"
     label: "Unique Pages"
