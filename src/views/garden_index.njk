@@ -1,0 +1,22 @@
+{% extends "page.njk" %}
+
+{% block after_content %}
+    <div class="px-2 pt-8">
+        <div class="flex flex-wrap -mx-2">
+        {% for post in collections.garden %}
+            <div class="w-1/2 px-2 pb-8">
+                <a href="{{post.url}}" class="group">
+                    {% set image = post.data.thumbnail or post.data.banner or post.data.gallery[0] %}
+                    <figure class="bg-gray-700 relative text-white">
+                        <img src="{{image.src}}" alt="{{post.data.title}}" class="transition group-hover:opacity-25">
+                        <figcaption class="absolute inset-0 inline-flex justify-center items-center opacity-0 group-hover:opacity-100">
+                            <p class="text-sm uppercase tracking-widest"><span class="inline-block px-2 py-1 bg-gray-700 text-gray-200">Learn More &rarr;</span></p>
+                        </figcaption>
+                    </figure>
+                    <h2 class="transition text-sm uppercase font-serif tracking-widest pt-4">{{ post.data.title }}</h2>
+                </a>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endblock %}

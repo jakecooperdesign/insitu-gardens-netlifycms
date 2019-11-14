@@ -18,7 +18,7 @@
 <body class="font-sans">
     <div id="app" :class="{'overflow-hidden h-screen w-screen': screenLocked }">
         {% block main_header %}
-        <header class="relative text-white h-64 md:h-128 text-xl">
+        <header class="relative text-white h-64 md:h-128 text-xl" style="background: rgb(0,0,0); background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 33%);">
             <navbar>
                 <template v-slot:heading>
                     <p class="text-4xl"><a href="/">{{settings.title}}</a></p>

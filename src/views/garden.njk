@@ -1,0 +1,33 @@
+{% extends "page.njk" %}
+
+{% block header %}
+    <p class="mb-8 text-xs tracking-widest uppercase"><a href="/gardens" class="transition inline-block px-2 py-1 rounded bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200">View All Gardens &rarr;</a></p>
+    <h1 class="font-serif text-2xl uppercase tracking-widest border-b inline-block mx-auto pb-8">{{title}}</h1>
+{% endblock %}
+
+{% block after_content %}
+    {% if gallery|length > 0 %}
+        <slideshow 
+            name="{{title}}" 
+            :slides="{{gallery | dump}}" 
+            @update:gallery-open="screenLocked = $event"
+        ></slideshow>
+        <div class="px-4">
+            {% for image in gallery %}
+                <figure class="{{'pt-12' if not loop.first}}" @click="$emit('open-gallery', {{loop.index0}})">
+                    <img src="{{image.src}}" alt="{{image.title}}">
+                    {% if image.title or image.description %}
+                        <figcaption class="pt-4">
+                            {% if image.title %}
+                                <p class="text-sm tracking-widest uppercase font-serif">{{image.title}}</p>
+                            {% endif %}
+                            {% if image.description %}
+                                <p class="">{{image.description}}</p>
+                            {% endif %}
+                        </figcaption>
+                    {% endif %}
+                </figure>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endblock %}
