@@ -23,6 +23,32 @@ collections:
         fields: 
           - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}, required: false}
 
+  - name: "gardens"
+    label: "Gardens"
+    description: "Pages that use the garden template"
+    folder: "src/gardens"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Banner"
+        name: "banner"
+        widget: "object"
+        required: false
+        fields: 
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }}, required: false}
+      - label: "Gallery Images"
+        label_singular: "Image"
+        name: "gallery"
+        widget: "list" 
+        required: false
+        fields: 
+          - {label: "Title", name: "title", widget: "string", required: false}
+          - {label: "Image", name: "src", widget: "image", media_library: { config: { multiple: false }} }
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "gallery-pages"
     label: "Gallery Pages"
     description: "Pages that use the gallery template"
