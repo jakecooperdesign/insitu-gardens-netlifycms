@@ -121,12 +121,18 @@ __webpack_require__.r(__webpack_exports__);
     'speed': {
       "default": 2000
     },
-    'activeSlide': {
+    'startingSlide': {
       "default": 0
     }
   },
+  data: function data() {
+    return {
+      'activeSlide': 0
+    };
+  },
   mounted: function mounted() {
     if (this.autoplay) setInterval(this.nextSlide, this.speed);
+    this.activeSlide = this.startingSlide;
   },
   methods: {
     nextSlide: function nextSlide() {

@@ -16,10 +16,16 @@ export default {
         'image-classes': { type: String }, 
         'autoplay': { type: [Boolean,String], default: false }, 
         'speed': { default: 2000 },
-        'activeSlide': { default: 0 },
+        'startingSlide': { default: 0 },
+    },
+    data() {
+        return {
+            'activeSlide': 0
+        }
     },
     mounted() {
         if (this.autoplay) setInterval(this.nextSlide, this.speed);
+        this.activeSlide = this.startingSlide
     },
     methods: {
         nextSlide() {
