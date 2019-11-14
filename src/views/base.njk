@@ -17,6 +17,8 @@
 </head>
 <body class="font-sans">
     <div id="app" :class="{'overflow-hidden h-screen w-screen': screenLocked }">
+        {% set links = collections.nav_links | push(settings.extra_nav_links) %}
+
         {% block main_header %}
         <header class="relative text-white h-64 md:h-128 text-xl" style="background: rgb(0,0,0); background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 33%);">
             <navbar>
@@ -24,7 +26,7 @@
                     <p class="text-4xl"><a href="/">{{settings.title}}</a></p>
                 </template>
                 <template v-slot:links>
-                    {% for link in settings.nav_links %}
+                    {% for link in links %}
                         <a class="block py-2 md:ml-4 border-b border-transparent hover:text-gray-600 md:hover:text-white md:hover:border-white md:inline-block" href="{{link.url}}">{{ link.label }}</a>
                     {% endfor %}
                 </template>

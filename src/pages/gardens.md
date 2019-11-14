@@ -2,6 +2,7 @@
 title: Gardens
 layout: garden_index
 permalink: /gardens/
+show_in_nav: 2
 banner:
   src: /dist/images/INS_Collections2019_091319_0921_Andy-web.jpg
 ---

@@ -14,7 +14,8 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Show In Nav", name: "show_in_nav", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Banner"
         name: "banner"
@@ -58,7 +59,8 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "gallery"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Show In Nav", name: "show_in_nav", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Banner"
         name: "banner"
@@ -113,10 +115,11 @@ collections:
           - {label: "Site Tagline", name: "tagline", widget: "string"}
           - {label: "Default Page Banner", name: "default_banner", widget: "image", media_library: { config: { multiple: false } } }
           - label: "Navigation Links"
-            name: "nav_links"
+            name: "extra_nav_links"
             widget: "list" 
             required: false
             fields: 
               - {label: "Label", name: "label", widget: "string"}
               - {label: "URL", name: "url", widget: "string"}
+              - {label: "Rank", name: "rank", widget: "number", required: false}
                                   

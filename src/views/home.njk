@@ -25,7 +25,7 @@
                 <p class="text-4xl"><a href="/">{{settings.title}}</a></p>
             </div>
             <nav class="flex flex-col flex-1 justify-center p-4 text-white md:flex-none md:block md:p-8">
-                {% for link in settings.nav_links %}
+                {% for link in links %}
                     <a class="block py-4 text-2xl md:py-2 md:text-xl md:ml-4 border-b border-transparent hover:text-gray-600 md:hover:text-white md:hover:border-white md:inline-block" href="{{link.url}}">{{ link.label }}</a>
                 {% endfor %}
             </nav>

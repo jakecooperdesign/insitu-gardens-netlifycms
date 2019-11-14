@@ -1,0 +1,12 @@
+---
+title: test
+permalink: /test/
+---
+
+{% set nav_links = collections.nav_links | push(settings.extra_nav_links) %}
+
+<pre>
+{% for item in nav_links %}
+    {{item.label}}
+{% endfor %}
+</pre>

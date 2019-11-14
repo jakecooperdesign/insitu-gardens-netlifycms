@@ -2,6 +2,7 @@
 title: Sculptures
 layout: gallery
 permalink: /sculptures/
+show_in_nav: 1
 banner:
   src: /dist/images/INS_Collections2019_071719_213_Phone-web.jpg
 gallery:
