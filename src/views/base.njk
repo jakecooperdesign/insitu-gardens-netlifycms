@@ -16,7 +16,7 @@
     {% block head %}{% endblock %}
 </head>
 <body class="font-sans">
-    <div id="app" :class="{'overflow-hidden h-screen w-screen': screenLocked }">
+    <div id="app" class="flex flex-col min-h-screen" :class="{'overflow-hidden h-screen w-screen': screenLocked }">
         {% set links = collections.nav_links | push(settings.extra_nav_links) %}
 
         {% block main_header %}
@@ -35,9 +35,11 @@
         </header>
         {% endblock %}
 
-        {% block main %}
-            <main>{{ content | safe }}</main>
-        {% endblock %}
+        <div class="flex-1">
+            {% block main %}
+                <main>{{ content | safe }}</main>
+            {% endblock %}
+        </div>
 
         {% block footer %}
         <footer class="bg-gray-200 text-center p-2 text-xs uppercase tracking-widest text-gray-700">
