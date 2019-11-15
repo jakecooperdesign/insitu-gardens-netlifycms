@@ -31,7 +31,7 @@
         </div>
     {% endif %}
 
-    {% import "macros.njk" as macro with context %}
-    {{ macro.getCollectionPagination(garden) }}
+    {% from "macros.njk" import getCollectionPagination as paginator with context %}
+    {{ paginator(garden) }}
 
 {% endblock %}
