@@ -15,7 +15,7 @@
         <div class="px-4">
             {% for image in gallery %}
                 <figure class="{{'pt-12' if not loop.first}}" @click="$emit('open-gallery', {{loop.index0}})">
-                    <img src="{{image.src}}" alt="{{image.title}}">
+                    <img class="cursor-pointer" src="{{image.src}}" alt="{{image.title}}">
                     {% if image.title or image.description %}
                         <figcaption class="pt-4">
                             {% if image.title %}
@@ -30,4 +30,8 @@
             {% endfor %}
         </div>
     {% endif %}
+
+    {% import "macros.njk" as macro with context %}
+    {{ macro.getCollectionPagination(garden) }}
+
 {% endblock %}

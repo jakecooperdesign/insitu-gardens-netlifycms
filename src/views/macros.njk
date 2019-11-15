@@ -1,0 +1,15 @@
+{% macro getCollectionPagination(collection) %}
+
+    {% set currentItemIndex = 0 %}
+    {% for item in collections.garden %}
+        {% if item.url == page.url %}
+            {% set currentItemIndex = loop.index0 %}
+        {% endif %}
+    {% endfor %}
+
+    {% set prevItem = collections.garden[currentItemIndex - 1] %}
+    {% set nextItem = collections.garden[currentItemIndex + 1] %}
+
+    {% include "collection_navigation.njk" %}
+
+{% endmacro %}

@@ -1,0 +1,19 @@
+{% if prevItem or nextItem %}
+    <div class="mt-16 border-t flex">
+
+        {% if prevItem %}
+            <a class="flex-1 py-8 block group hover:bg-gray-100 transition" href="{{prevItem.url}}">
+                <p class="uppercase text-xs font-serif tracking-widest text-gray-500">Previous</p>
+                <p class="text-xl group-hover:opacity-75 transition">{{prevItem.data.title}}</p>
+            </a>
+        {% endif %}
+
+        {% if nextItem %}
+            <a class="flex-1 py-8 block group hover:bg-gray-100 transition {{'border-l' if prevItem}}" href="{{nextItem.url}}">
+                <p class="uppercase text-xs font-serif tracking-widest text-gray-500">Next</p>
+                <p class="text-xl group-hover:opacity-75 transition">{{nextItem.data.title}}</p>
+            </a>
+        {% endif %}
+
+    </div>
+{% endif %}
