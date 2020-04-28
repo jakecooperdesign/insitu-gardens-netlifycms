@@ -1,5 +1,5 @@
 ---
-title: Gardens
+title: Garden Rooms
 layout: garden_index
 permalink: /gardens/
 show_in_nav: 2
